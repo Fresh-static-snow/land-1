@@ -3,16 +3,47 @@ import { Fragment } from "react";
 export default function Home() {
   return (
     <Fragment>
-      <img
-        loading="eager"
-        src="/Landing desktop.png"
-        className="hidden sm:block w-full h-full"
-      />
-      <img
-        loading="eager"
-        src="/Landing mobile.png"
-        className="block sm:hidden w-full h-full"
-      />
+      <div className="hidden sm:block">
+        <div className="flex flex-col items-center gap-4">
+          <img
+            loading="eager"
+            src="/desk-girl.png"
+            className="w-full max-w-[800px]"
+          />
+          <a
+            href="https://go33au.com/RFV8.PARTNERSHIP"
+            target="_blank"
+            className="px-[16px]"
+          >
+            <img loading="eager" src="/desk-btn-1.png" className="w-full " />
+          </a>
+          <a href="https://v8au.com/RFGO33.PARTNERSHIP" target="_blank">
+            <img loading="eager" src="/desk-btn-2.png" className="w-full " />
+          </a>
+          <a href="https://m6au.com/RFM6APARTNERSHIP" target="_blank">
+            <img loading="eager" src="/desk-btn-3.png" className="w-full " />
+          </a>
+        </div>
+      </div>
+
+      <div className="block sm:hidden">
+        <div className="flex flex-col items-center gap-4">
+          <img
+            loading="eager"
+            src="/mob-girl.png"
+            className="w-full max-w-[800px]"
+          />
+          <a href="https://go33au.com/RFV8.PARTNERSHIP" target="_blank">
+            <img loading="eager" src="/mob-btn-1.png" className="w-full " />
+          </a>
+          <a href="https://v8au.com/RFGO33.PARTNERSHIP" target="_blank">
+            <img loading="eager" src="/mob-btn-2.png" className="w-full " />
+          </a>
+          <a href="https://m6au.com/RFM6APARTNERSHIP" target="_blank">
+            <img loading="eager" src="/mob-btn-3.png" className="w-full " />
+          </a>
+        </div>
+      </div>
     </Fragment>
   );
 }
