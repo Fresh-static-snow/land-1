@@ -28,13 +28,6 @@ export default function Home() {
               className="w-auto max-w-[800px]"
             />
           </a>
-          <a href="https://m6au.com/RFM6APARTNERSHIP" target="_blank">
-            <img
-              loading="eager"
-              src="/desk-btn-3.webp"
-              className="w-auto max-w-[800px]"
-            />
-          </a>
         </div>
       </div>
 
@@ -56,13 +49,6 @@ export default function Home() {
             <img
               loading="eager"
               src="/mob-btn-2.webp"
-              className="w-auto max-w-[800px]"
-            />
-          </a>
-          <a href="https://m6au.com/RFM6APARTNERSHIP" target="_blank">
-            <img
-              loading="eager"
-              src="/mob-btn-3.webp"
               className="w-auto max-w-[800px]"
             />
           </a>
