@@ -7,7 +7,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-4">
           <img
             loading="eager"
-            src="/desk-girl.png"
+            src="/desk-girl.webp"
             className="w-full max-w-[800px]"
           />
           <a
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-4">
           <img
             loading="eager"
-            src="/mob-girl.png"
+            src="/mob-girl.webp"
             className="w-full max-w-[800px]"
           />
           <a href="https://go33au.com/RFV8.PARTNERSHIP" target="_blank">
