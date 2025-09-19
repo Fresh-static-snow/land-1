@@ -8,7 +8,7 @@ export default function Home() {
           <img
             loading="eager"
             src="/desk-girl.webp"
-            className="w-auto max-w-[800px]"
+            className="w-full max-w-full sm:w-auto sm:max-w-[800px]"
           />
           <a
             href="https://go33au.com/RFV8.PARTNERSHIP"
@@ -18,21 +18,21 @@ export default function Home() {
             <img
               loading="eager"
               src="/desk-btn-1.webp"
-              className="w-auto max-w-[800px]"
+              className="w-full max-w-full sm:w-auto sm:max-w-[800px]"
             />
           </a>
           <a href="https://v8au.com/RFGO33.PARTNERSHIP" target="_blank">
             <img
               loading="eager"
               src="/desk-btn-2.webp"
-              className="w-auto max-w-[800px]"
+              className="w-full max-w-full sm:w-auto sm:max-w-[800px]"
             />
           </a>
           <a href="https://m6au.com/RFM6APARTNERSHIP" target="_blank">
             <img
               loading="eager"
               src="/desk-btn-3.webp"
-              className="w-auto max-w-[800px]"
+              className="w-full max-w-full sm:w-auto sm:max-w-[800px]"
             />
           </a>
         </div>
@@ -43,27 +43,27 @@ export default function Home() {
           <img
             loading="eager"
             src="/mob-girl.webp"
-            className="w-auto max-w-[800px]"
+            className="w-full max-w-full sm:w-auto sm:max-w-[800px]"
           />
           <a href="https://go33au.com/RFV8.PARTNERSHIP" target="_blank">
             <img
               loading="eager"
               src="/mob-btn-1.webp"
-              className="w-auto max-w-[800px]"
+              className="w-full max-w-full sm:w-auto sm:max-w-[800px]"
             />
           </a>
           <a href="https://v8au.com/RFGO33.PARTNERSHIP" target="_blank">
             <img
               loading="eager"
               src="/mob-btn-2.webp"
-              className="w-auto max-w-[800px]"
+              className="w-full max-w-full sm:w-auto sm:max-w-[800px]"
             />
           </a>
           <a href="https://m6au.com/RFM6APARTNERSHIP" target="_blank">
             <img
               loading="eager"
               src="/mob-btn-3.webp"
-              className="w-auto max-w-[800px]"
+              className="w-full max-w-full sm:w-auto sm:max-w-[800px]"
             />
           </a>
         </div>
